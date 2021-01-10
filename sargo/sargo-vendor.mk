@@ -61,8 +61,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/lib/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvt.so \
     vendor/google/sargo/proprietary/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtextutils.so \
     vendor/google/sargo/proprietary/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtutils.so \
+    vendor/google/sargo/proprietary/lib/liblogwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblogwrap.so \
     vendor/google/sargo/proprietary/lib/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdsprpc_system.so \
+    vendor/google/sargo/proprietary/lib/libminui.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libminui.so \
+    vendor/google/sargo/proprietary/lib/libnl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnl.so\
     vendor/google/sargo/proprietary/lib/libOpenCL_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOpenCL_system.so \
+    vendor/google/sargo/proprietary/lib/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-full.so \
     vendor/google/sargo/proprietary/lib/libqcbor_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqcbor_system.so \
     vendor/google/sargo/proprietary/lib/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librcc.so \
     vendor/google/sargo/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdm-disp-apis.so \
@@ -78,7 +82,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtextutils.so \
     vendor/google/sargo/proprietary/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtutils.so \
     vendor/google/sargo/proprietary/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdsprpc_system.so \
+    vendor/google/sargo/proprietary/lib64/libmediaplayerservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmediaplayerservice.so \
+    vendor/google/sargo/proprietary/lib64/libminui.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libminui.so \
     vendor/google/sargo/proprietary/lib64/libOpenCL_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOpenCL_system.so \
+    vendor/google/sargo/proprietary/lib64/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprotobuf-cpp-full.so \
     vendor/google/sargo/proprietary/lib64/libqcbor_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqcbor_system.so \
     vendor/google/sargo/proprietary/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
     vendor/google/sargo/proprietary/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdm-disp-apis.so \
@@ -283,7 +290,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/product/etc/CarrierSettings/bell_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bell_ca.pb \
     vendor/google/sargo/proprietary/product/etc/CarrierSettings/bluegrass_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bluegrass_us.pb \
     vendor/google/sargo/proprietary/product/etc/CarrierSettings/boost_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/boost_us.pb \
-    vendor/google/sargo/proprietary/product/etc/CarrierSettings/boosttmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/boosttmo_us.pb \
     vendor/google/sargo/proprietary/product/etc/CarrierSettings/bouygues_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bouygues_fr.pb \
     vendor/google/sargo/proprietary/product/etc/CarrierSettings/btb_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/btb_gb.pb \
     vendor/google/sargo/proprietary/product/etc/CarrierSettings/btc_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/btc_gb.pb \
